@@ -7,12 +7,12 @@ section {
 }
 
 #intro { 
-	background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; 
+	background: #c3c2c1 url(http://chrisspooner.com/my-sites/images/intro-bg.jpg) left no-repeat; 
 }
 
 	#intro h1 {
 		width: 858px; height: 161px;
-		background: url(images/intro-title.png); text-indent: -9999px;
+		background: url(http://chrisspooner.com/my-sites/images/intro-title.png); text-indent: -9999px;
 		position: relative; top: 145px; left: 0;
 	}
 
@@ -25,13 +25,13 @@ section {
 	}
 	
 #gaming {
-	background: #28323c url(images/gaming-bg.jpg);
+	background: #28323c url(http://chrisspooner.com/my-sites/images/gaming-bg.jpg);
 	background-size: cover; 
 }
 
 	#gaming h2 {
 		width: 740px; height: 324px;
-		background: url(images/gaming-title.png); text-indent: -9999px;
+		background: url(http://chrisspooner.com/my-sites/images/gaming-title.png); text-indent: -9999px;
 		position: relative; top: 87px; left: 90px;
 	}
 	
@@ -41,6 +41,36 @@ section {
 	
 	#gaming .btn a {
 		display: block; width: 728px; height: 176px;
-		background: url(images/gaming-link.png); text-indent: -9999px;
+		background: url(http://chrisspooner.com/my-sites/images/gaming-link.png); text-indent: -9999px;					
 		position: relative; top: 70px;
 	}
+	
+#cs ul li {
+		float: left; box-shadow: 0 0 20px rgba(0,0,0,0.5); line-height: 0;
+		posi	tion: absolute; list-style: none;
+	}
+		#cs ul li:nth-child(1) {
+			top: 640px; left: 100px;
+			transform: rotate(10deg);
+			-moz-transform: rotate(10deg);
+			-webkit-transform: rotate(10deg);
+			z-index: 1;
+		}
+		#cs ul li:nth-child(2) {
+			top: 600px; left: 420px;
+			transform: rotate(-5deg);
+			-moz-transform: rotate(-5deg);
+			-webkit-transform: rotate(-5deg);
+			z-index: 3;
+		}
+		#cs ul li:nth-child(3) {
+			top: 680px; left: 570px;
+			transform: rotate(-2deg);
+			-moz-transform: rotate(-2deg);
+			-webkit-transform: rotate(-2deg);
+			z-index: 2;
+		}
+
+	
+	
+	
