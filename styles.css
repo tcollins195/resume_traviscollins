@@ -1,76 +1,356 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
 body {
 	font: 18px/30px Sans-serif; color: #fff;
 }
 
+
+
 section {
-	overflow: hidden; height: 993px;
+	overflow-x: hidden; height: 993px;
+}		
+			
+/* MY Resume CSS */
+
+#resume {
+	background: #1D2882 url(images2/Travis_41s.jpg);
+	background-size: cover;
+}
+	
+	#resume h1 {
+		color:#1D2882;
+		width: 700px; height: 300px;
+ 		background: url(images2/Travis_Collins.png);
+		text-indent: -9999px;
+		position: relative; top: 75px; left: 250px;
+	}
+
+	#resume p {
+		color:#1D2882; font-size:22px; font-weight:bold;
+		text-align:center;
+		text-shadow:0px 0px 4px white;
+		position: relative; top: 90px; left: 380px;
+		width: 500px;
+	}
+
+
+
+#band {
+	background: black url(images/torp_bg.jpg);
+	/* background-size: cover; */	
+ 	position: relative; 
 }
 
-#intro { 
-	background: #c3c2c1 url(http://chrisspooner.com/my-sites/images/intro-bg.jpg) left no-repeat; 
-}
-
-	#intro h1 {
-		width: 858px; height: 161px;
-		background: url(http://chrisspooner.com/my-sites/images/intro-title.png); text-indent: -9999px;
-		position: relative; top: 145px; left: 0;
+	#band h2 {
+		position: relative; top: 110px; left: 205px;
 	}
-
-	#intro p {
-		position: relative; top: 200px; left: 350px;
-		width: 508px; margin: 0 0 30px 0;
+			
+	#band a {
+		color: #8EB1DF; text-decoration: none;
 	}
-	#intro p:nth-child(2) {
-		font-weight: bold;
+		#band a:hover {
+			color: #d18f77;
+		}
+	
+	#band p {
+		position: relative; top: 170px; left: 90px;
+		width: 720px;
 	}
 	
-#gaming {
-	background: #28323c url(http://chrisspooner.com/my-sites/images/gaming-bg.jpg);
-	background-size: cover; 
-}
-
-	#gaming h2 {
-		width: 740px; height: 324px;
-		background: url(http://chrisspooner.com/my-sites/images/gaming-title.png); text-indent: -9999px;
-		position: relative; top: 87px; left: 90px;
-	}
-	
-	#gaming p {
-		position: relative; top: 110px; left: 100px;
-	}
-	
-	#gaming .btn a {
-		display: block; width: 728px; height: 176px;
-		background: url(http://chrisspooner.com/my-sites/images/gaming-link.png); text-indent: -9999px;					
-		position: relative; top: 70px;
-	}
-	
-#cs ul li {
+	#band ul li {
 		float: left; box-shadow: 0 0 20px rgba(0,0,0,0.5); line-height: 0;
-		posi	tion: absolute; list-style: none;
+		position: absolute; list-style: none;
 	}
-		#cs ul li:nth-child(1) {
-			top: 640px; left: 100px;
+
+		#band ul li:nth-child(1) {
+			top: 340px; left: 50px;
 			transform: rotate(10deg);
 			-moz-transform: rotate(10deg);
 			-webkit-transform: rotate(10deg);
 			z-index: 1;
 		}
-		#cs ul li:nth-child(2) {
-			top: 600px; left: 420px;
+		#band ul li:nth-child(2) {
+			top: 300px; left: 320px;
 			transform: rotate(-5deg);
 			-moz-transform: rotate(-5deg);
 			-webkit-transform: rotate(-5deg);
 			z-index: 3;
 		}
-		#cs ul li:nth-child(3) {
-			top: 680px; left: 570px;
+		#band ul li:nth-child(3) {
+			top: 380px; left: 470px;
 			transform: rotate(-2deg);
 			-moz-transform: rotate(-2deg);
 			-webkit-transform: rotate(-2deg);
 			z-index: 2;
 		}
+		#band ul li:nth-child(4) {
+			top: 340px; left: 660px;
+			transform: rotate(7deg);
+			-moz-transform: rotate(7deg);
+			-webkit-transform: rotate(7deg);
+			z-index: 1;
+		}
+		#band ul li:nth-child(5) {
+			top: 330px; left: 840px;
+			transform: rotate(-7deg);
+			-moz-transform: rotate(-7deg);
+			-webkit-transform: rotate(-7deg);
+			z-index: 2;
+		}
+		#band ul li:nth-child(6) {
+			top: 378px; left: 930px;
+			transform: rotate(-2deg);
+			-moz-transform: rotate(-2deg);
+			-webkit-transform: rotate(-2deg);
+			z-index: 1;
+		}
 
 	
 	
+#swim {
+	background: black url(images2/underwater1.jpg);
+	background-size: cover;
+}
+
+	#swim h2 {
+		position: relative; top: 187px; left: 670px;
+	}
 	
+	#swim-photo {
+		position: absolute; top: 170px; left: 200px; ; 
+		transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+	}
+	
+	#swim p {
+		position: relative; top: 370px; left: 600px;
+		width: 300px;
+	}
+	
+	#swim a {
+		position: relative; top: 370px; left: 300px;
+		color: #91d827; text-decoration: none;
+	}
+		#swim a:hover {
+			color: #83b040;
+		}
+
+
+#trap {
+	background: black url(images2/trap3s.jpg);
+	background-size: cover;
+}
+	
+	#trap h2 {
+		color:#2f3035;
+		width: 858px; height: 161px;
+		position: relative; top: 100px; left: 250px;
+	}
+
+	#trap-photo {
+		position: absolute; top: 230px; left: 500px; ; 
+		transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+	}
+
+	#trap p {
+		position: relative; top: 20px; left: 500px;
+		width: 500px; height: 161px; 
+	}
+	
+	#trap a {
+		 top: 130px; left: 230px;
+		color:white;
+		position: relative;
+		text-decoration: none;
+	}
+	
+			#trap a:hover {
+				color: #dc9b85;
+			}
+	
+	
+#nhs {
+	background: black url(images/OrangeNHS.jpg);
+	background-size: cover;
+}
+	
+ 	#nhs h2 {
+ 		color:black;
+		position: relative; top: 100px; left: 440px;
+	}
+	
+	#nhs-photo img {
+		border-radius: 35px;
+		position: relative; top: 145px; left: 90px;
+		box-shadow: 0px 0px 30px 5px gray;
+	
+	}
+	
+	#nhs p {
+		color:black;
+		position: absolute; top: 180px; left: 440px;
+		text-shadow:0px 0px 4px white;
+		width: 300px;
+	}
+	
+
+
+#tri-m {
+	background: black url(images/Tri-M_Background.jpg);
+	background-size: cover;
+}
+	
+ 	#tri-m h2 {
+		color:black;
+		position: relative; top: 100px; left: 530px;
+	}
+	
+	#tri-m-photo img {
+		box-shadow: 0px 0px 30px 5px gray;
+		position: absolute; top: 180px; left: 70px;
+	
+	}
+	
+	#tri-m p {
+		color:black;
+		position: relative; top: 145px; left: 530px;
+		width: 300px;
+	}
+
+
+#ping-pong {
+	background: black url(images2/PingPongTable.jpg);
+	background-size: cover;
+}
+
+	#ping-pong h2 {
+		position: relative; top: 144px; left: 370px;
+		width: 400px; height: 150px;
+		background: url(images/Ping-Pong2.png); 
+		text-indent: -9999px;
+	}
+	
+	#ping-pong p {
+		position: relative; top: 370px; left: 300px;
+		width: 300px;
+	}
+	
+	#ping-pong a {
+		position: relative; top: 520px; left: 230px;
+		color: #fdd827; text-decoration: none;
+	}
+		#ping-pong a:hover {
+			color: #f09813;
+		}
+
+#work {
+	background: black url(images2/Umpire.jpg);
+	background-size: cover;
+}
+
+	#work h2 {
+		position: relative; top: 170px; left: 270px;
+	}
+	
+	#work p {
+		position: relative; top: 320px; left: 270px;
+		width: 300px;
+	}
+	
+	#work a {
+		position: relative; top: 380px; left: 270px;
+		color: #b78152; text-decoration: none;
+	}
+		#work a:hover {
+			color: #f0a05a;
+		}
+
+
+#volunteer {
+	background: black url(images2/lakeside.jpg);
+	background-size: cover;
+}
+
+	#volunteer h2 {
+		color:black;
+		position: relative; top: 140px; left: 160px;
+	}
+
+	#volunteer p {
+		color:black;
+		position: relative; top: 145px; left: 160px;
+		width: 300px;
+	}
+	
+	#volunteer a {
+		color: blue; text-decoration: none; /* font-weight: bold; font-size: 26px; */
+		position: relative; top: 200px; left: 160px;
+	}
+	
+			#volunteer a:hover {
+				color: blue;
+				text-shadow:1px 1px 0px #3d84b0;
+			}
+
+i {
+	vertical-align:middle;
+	
+	display:inline-block;
+	height:51px;
+	width:51px;	
+	background-image:url(images/icons2.jpg);
+	margin:3px 0px 3px 0px;
+	border-radius: 9px;
+}
+
+#connect {
+	background: black url(images2/Jesus.jpg);
+	background-size: cover;
+}
+
+/* 	#connect h2 {
+		width: 400px; height: 100px;
+		background: url(images/connect.png); 
+		text-indent: -9999px;
+		position: relative; top: 60px; left: -250px;
+	} */
+	
+	#connect-photo {
+		 position: relative; top: 60px; left: -250px;
+	}
+	
+
+	#connect p {
+		text-align:right;
+		color:black;
+		position: relative; top: 110px; left: 30px;
+		width: 250px;
+	}
+	
+	i.facebook {
+		background-position:-10px -2px;
+	}
+	
+	i.twitter {
+		background-position:-140px -2px;
+	}
+	
+	i.youtube {
+		background-position:-75px -2px;		
+	}
+
+	#connect a {
+		color: black; text-decoration: none; /* font-weight: bold; font-size: 26px; */
+		position: relative; top: /* 200px; left: 160px; */
+	}
+
+		#connect a:hover {
+				color: black;
+				text-shadow:1px 1px 0px white;
+			}
+
+
+

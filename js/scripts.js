@@ -8,13 +8,114 @@ $(document).ready(function() {
 		blocks : '.curtains'
 	});
 
-	scrollorama.animate('#intro h1', {
+	scrollorama.animate('#resume h1', {
 		duration : 200,
 		property : 'left',
 		end : -860
 	});
+	
+	scrollorama.animate('#band ul li:nth-child(1)', {
+		delay : 0,
+		duration : 993,
+		property : 'top',
+		start : 840,
+		end : 640
+	});
+	scrollorama.animate('#band ul li:nth-child(2)', {
+		delay : 0,
+		duration : 993,
+		property : 'top',
+		start : 800,
+		end : 340
+	});
+	scrollorama.animate('#band ul li:nth-child(3)', {
+		delay : 0,
+		duration : 993,
+		property : 'top',
+		start : 920,
+		end : 580
+	});
+	scrollorama.animate('#band ul li:nth-child(4)', {
+		delay : 0,
+		duration : 993,
+		property : 'top',
+		start : 880,
+		end : 320
+	});
+	scrollorama.animate('#band ul li:nth-child(5)', {
+		delay : 0,
+		duration : 993,
+		property : 'top',
+		start : 830,
+		end : 660
+	});
+	scrollorama.animate('#band ul li:nth-child(6)', {
+		delay : 0,
+		duration : 993,
+		property : 'top',
+		start : 960,
+		end : 400
+	});
+	
+	scrollorama.animate('#swim-photo', {
+		delay : 993,
+		duration : 993,
+		property : 'left',
+		start : -850,
+		easing : 'easeOutBounce'
+	});
+	
+	scrollorama.animate('#trap-photo', {
+		delay : 2500,
+		duration : 1000,
+		property : 'top',
+		start : 0,
+		easing : 'easeOutBounce'
+	});
+	
+	scrollorama.animate('#nhs-photo', {
+		delay : 2979,
+		duration : 993,
+		property : 'top',
+		start : 640,
+		end : 0
+	});
+	
+	scrollorama.animate('#tri-m-photo', {
+		delay : 4965,
+		duration : 993,
+		property : 'bottom',
+		start : 500,
+		end : 0
+	});
 
-	scrollorama.animate('#spoon-photo', {
+	scrollorama.animate('#ping-pong h2', {
+		delay : 5600,
+		duration : 500,
+		property : 'zoom',
+		start : 0,
+		end : 1.2
+	});
+	
+	
+
+	
+	
+	
+	scrollorama.animate('#connect-photo', {
+		delay : 8800,
+		duration : 250,
+		property : 'left',
+		start : -200,
+		end : 0
+	});
+
+	
+	
+	
+	
+	
+/*	scrollorama.animate('#spoon-photo', {
 		delay : 993,
 		duration : 993,
 		property : 'top',
@@ -30,7 +131,7 @@ $(document).ready(function() {
 		end : 10
 	});
 
-	scrollorama.animate('#gaming .btn', {
+	scrollorama.animate('#gaming.btn', {
 		delay : 2000,
 		duration : 993,
 		property : 'left',
@@ -87,5 +188,5 @@ $(document).ready(function() {
 		property : 'top',
 		start : 0,
 		easing : 'easeOutBounce'
-	});
+	});*/
 });
