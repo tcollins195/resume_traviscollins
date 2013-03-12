@@ -42,13 +42,22 @@
 				<section id="band">
 					<h2>Millard West Band</h2>
 	
-					<p><a href="http://mwwildcatband.org/">Visit Millard West Band page</a>
-						I also post random content over on my ChrisSpooner.com personal
-						blog. Here you will find various videos, vlogs and insights into my
-						hobbies and interests outside of my main jobs. So, if you’re
-						interested in what I get up to when I’m not designing stuff or
-						playing video games, this is the place to go!</p>
-	
+					<ol class="band-text">
+						<li id="band-text">
+							I have been engaged in concert band since 5th grade, switching between alto and bari saxophone when needed.
+						</li>
+						<li id="band-text">
+							I have been involved in marching band all the way through high school,<br/>
+							helping out at section leader my Junior and Senior years.
+						</li>
+						<li id="band-text">
+							I have lettered in band all four years of high school. 
+						</li>
+						<li id="band-text">
+							I encourage you to visit the <a href="http://mwwildcatband.org/">Millard West Band page</a> to find<br/>out more about the program
+						</li>
+					</ol>	
+		
 					<ul>
 						<li><a href="http://mwwildcatband.org/"><img
 								src="images2/bandXs.jpg" alt="" /> </a></li>
@@ -63,11 +72,6 @@
 						<li><a href="http://mwwildcatband.org/"><img
 								src="images2/band1s.jpg" alt="" /> </a></li>
 					</ul>
-					
-					
-					
-					
-					
 				</section>
 			</li>
 			
@@ -77,7 +81,11 @@
 					
 					<img id="swim-photo" src="images2/swim1s.jpg" alt="swim1">
 			
-					<p>I joined the swim team my Junior year. Try something new</p>
+					<p>
+						I have never done competitive swimming before</br> 
+						but when I was a Junior I wanted to try something new</br> 
+						
+					</p>
 	
 					<a href="http://www.maxpreps.com/athletes/YwXkyFGdY0qfwtu4gknrvw/swimming-winter-12-13/profile-travis-collins.htm">See my stats</a>
 

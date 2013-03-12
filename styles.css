@@ -54,10 +54,11 @@ section {
 			color: #d18f77;
 		}
 	
-	#band p {
-		position: relative; top: 170px; left: 90px;
-		width: 720px;
-	}
+ 	#band ol li {
+		position: relative; top: 140px; left: 50px;
+		text-shadow:0px 0px 4px #282828;
+		/* width: 720px; */
+	} 
 	
 	#band ul li {
 		float: left; box-shadow: 0 0 20px rgba(0,0,0,0.5); line-height: 0;
