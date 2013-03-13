@@ -10,6 +10,8 @@
 		<!-- Curtain Style Sheet -->
 		<link href="js/curtain.js-development-v2.0/curtain.css" rel="stylesheet" />
 		
+		<link href='http://fonts.googleapis.com/css?family=Capriola' rel='stylesheet' type='text/css'>
+		
 		<!-- jQuery JS -->
 		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 		
@@ -31,36 +33,29 @@
 					<p>4963 S. 174 Ave. Omaha, NE 68135<br/>
 						(402) 333-9465<br/>
 						Collins4963@gmail.com</p>
-	
-					<p></p>
-	
-					<p></p>
 				</section>
 			</li>
 		
 			<li>
 				<section id="band">
-					<h2>Millard West Band</h2>
+					<div id="gray">
+						<h2>Millard West Band</h2>
 	
-					<ol class="band-text">
-						<li id="band-text">
-							I have been engaged in concert band since 5th grade, switching between alto and bari saxophone when needed.
-						</li>
-						<li id="band-text">
-							I have been involved in marching band all the way through high school,<br/>
-							helping out at section leader my Junior and Senior years.
-						</li>
-						<li id="band-text">
-							I have lettered in band all four years of high school. 
-						</li>
-						<li id="band-text">
-							I encourage you to visit the <a href="http://mwwildcatband.org/">Millard West Band page</a> to find<br/>out more about the program
-						</li>
-					</ol>	
-		
+						<p id="band-info">
+							- Concert Band (2005 - 2013)<br/>	
+							- Marching Band (2009 - 2013)<br/>
+							- Section Leader (2011 - 2013)<br/>
+							- Band Letter (2009 - 2013)<br/><br/>
+						</p>
+					</div>
+					
+					
+						
+					<p id="mwband"><a href="http://mwwildcatband.org/">Millard West<br/>Band page</a></p>
+
 					<ul>
 						<li><a href="http://mwwildcatband.org/"><img
-								src="images2/bandXs.jpg" alt="" /> </a></li>
+								src="images2/bandXs.jpg" alt="" /></a></li>
 						<li><a href="http://mwwildcatband.org/"><img
 								src="images2/band4s.jpg" alt="" /> </a></li>
 						<li><a href="http://mwwildcatband.org/"><img
@@ -82,9 +77,7 @@
 					<img id="swim-photo" src="images2/swim1s.jpg" alt="swim1">
 			
 					<p>
-						I have never done competitive swimming before</br> 
-						but when I was a Junior I wanted to try something new</br> 
-						
+						- Millard West Swim team (2011 - 2013)<br/>
 					</p>
 	
 					<a href="http://www.maxpreps.com/athletes/YwXkyFGdY0qfwtu4gknrvw/swimming-winter-12-13/profile-travis-collins.htm">See my stats</a>
@@ -98,7 +91,10 @@
 	
 					<img id="trap-photo" src="images/trap_logo.png" alt="swim1">
 	
-					<p></p>
+					<p>
+						- Active Member (2009 - 2013)<br/>
+						- Squad Leader (2011 - 2013)
+					</p>
 	
 					<a id="trap-photo" class="btn" href="https://sites.google.com/site/millardwesttrap/">Visit the Millard West<br/>Trap page</a>
 					
@@ -109,13 +105,14 @@
 				<section id="nhs">
 					<h2>National Honor Society</h2>
 	
-					<p>In order to be considered as a potential candidate for NHS, a student has to show:<br>
-						leadership both in school & outside activities<br>
-						commitment to volunteering in the community<br>
-						success in academic studies achieving/maintaining a 3.75 (or higher)GPA<br>
-						high moral standards<br>
-						Once accepted, students must attend all meetings and complete <br>
-						various service hours & projects set up by the club and on their own.</p>
+					<p>
+						Actively engaged in volunteering in the community.<br/><br/>
+						Prominent member in many NHS committees including:<br/>
+						 - Hope Lives Here committee<br/>
+						 - Children's committee<br/>
+						 - Mr. Millard West<br/>
+						 - NSLAH			
+					</p>
 					
 					<a href="www.nhs.us" id="nhs-photo"><img 
 						src="images2/nhs2.jpg" alt="Visit Line25"> </a>
@@ -127,13 +124,14 @@
 				<section id="tri-m">
 					<h2>Modern Music Masters</h2>
 	
-					<p>Tri-M is an Honors Music Society with the purpose of: <br>
-					recognizing musical achievement, <br>
-					strengthening our school's music program, <br>
-					and focus public attention on our school's music program through community service. <br>
-					Tri-M members represent the highest quality of musicianship and citizenship. <br>
-					Tri-M members have in the past gone caroling at nursing homes, organized can food drives, <br>
-					and act as stage managers for various musical events at Millard West, just to name a few.</p>
+					<p>
+						Active member of Tri-M (2011 - 2013)<br/><br/>
+						
+						Particpated in many volunteer opportunities including:<br/>
+						- Stage manager for the Wildcat Showcase<br/>
+						- Caroling at various nursing homes<br/>
+						- Helped organize a can food drive
+					</p>		
 	
 	
 					<a href="http://musiced.nafme.org/tri-m/" id="tri-m-photo"><img
@@ -146,9 +144,10 @@
 				<section id="ping-pong">
 					<h2>Ping-Pong</h2>
 		
-					<p>Omaha-Metro Table Tennis Club </p>
-	
-					<a href="http://www.omahatabletennisclub.com/">Visit OMTTC page</a>
+					<p>
+						- Weekly particpate at <a href="http://www.omahatabletennisclub.com/">Omaha-Metro Table Tennis Club</a><br/><br/>
+						- Coordinator for the Millard West Ping Pong club
+					</p>
 				</section>
 			</li>
 			
@@ -156,10 +155,11 @@
 				<section id="work">
 					<h2>Work Experience</h2>
 	
-					<p>Umpire for Millard Atheletic Association</p>
-	
-					<a href="http://www.millardathletics.com/page/show/217099-millard-athletics-baseball">Visit MAA Baseball page</a>
-					
+					<p>
+						- Umpire for <a href="http://www.millardathletics.com/page/show/217099-millard-athletics-baseball">
+										Millard Atheletic Association</a><br/><br/>
+						(2010 - 2013)
+					</p>					
 				</section>
 			</li>
 			
@@ -167,7 +167,10 @@
 				<section id="volunteer">
 					<h2>Community service</h2>
 	
-					<p>I am a teen volunteer at Lakeside Hospital</p>
+					<p>
+						- Teen volunteer at Lakeside Hospital<br/>
+						(2011 - 2013)
+					</p>
 	
 					<a href="http://www.alegentcreighton.com/lakeside-hospital">Visit Lakeside Hospital's page</a>
 				

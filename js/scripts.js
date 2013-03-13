@@ -14,6 +14,14 @@ $(document).ready(function() {
 		end : -860
 	});
 	
+	scrollorama.animate('#resume p', {
+		duration : 300,
+		property : 'top',
+		start: 80,
+		end : 500
+		
+	});
+	
 	scrollorama.animate('#band ul li:nth-child(1)', {
 		delay : 0,
 		duration : 993,
@@ -58,19 +66,29 @@ $(document).ready(function() {
 	});
 	
 	scrollorama.animate('#swim-photo', {
-		delay : 993,
+		delay : 1500,
+		duration : 970,
+		property : 'rotate',
+		start : -20,
+		end : 20
+
+		
+		
+		
+		
+/*		delay : 993,
 		duration : 993,
-		property : 'left',
-		start : -850,
-		easing : 'easeOutBounce'
+		property : 'fade-in',*/
+		/*start : -850,*/
+		/*easing : 'easeOutBounce'*/
 	});
 	
 	scrollorama.animate('#trap-photo', {
-		delay : 2500,
+		delay : 2300,
 		duration : 1000,
-		property : 'top',
+		property : 'left',
 		start : 0,
-		easing : 'easeOutBounce'
+		easing : 'easeInOutExpo',
 	});
 	
 	scrollorama.animate('#nhs-photo', {

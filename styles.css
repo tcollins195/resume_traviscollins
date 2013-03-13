@@ -3,7 +3,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 }
 
 body {
-	font: 18px/30px Sans-serif; color: #fff;
+	font: 18px/30px Capriola, Sans-serif; color: #fff;
 }
 
 
@@ -28,37 +28,68 @@ section {
 	}
 
 	#resume p {
+		background-image:url("images/tan.png");
+		border-radius: 0px 0px 60px 60px;
+		
 		color:#1D2882; font-size:22px; font-weight:bold;
 		text-align:center;
 		text-shadow:0px 0px 4px white;
-		position: relative; top: 90px; left: 380px;
-		width: 500px;
+		position: relative; top: 90px; left: 410px;
+		width: 430px;
 	}
 
 
 
 #band {
+	overflow:hidden;
 	background: black url(images/torp_bg.jpg);
 	/* background-size: cover; */	
  	position: relative; 
 }
 
+
+	div#gray h2, div#gray p  {
+	/* 	float:left;	 */
+	/* 	overflow:auto; */
+	/* 	display:inline-block; */
+	
+		display:compact;
+		background-image:url("images/gray.png");
+		border-radius: 15px;
+		/* padding:10px; */
+
+	}
+	
 	#band h2 {
 		position: relative; top: 110px; left: 205px;
+		width: 285px;
 	}
+		
+	#band p#band-info {
+		position: relative; top: 140px; left: 150px;
+		text-shadow:0px 0px 4px #282828;
+		text-decoration: none;
+		width: 285px;
+		height:124px;
+	} 	
+		
+		
+		
+		
 			
-	#band a {
+	#band p#mwband {
+		position: relative; top: 268px; left: 124px;
+	}
+	
+	#mwband a {
+		text-shadow:0px 0px 4px #282828;
 		color: #8EB1DF; text-decoration: none;
 	}
-		#band a:hover {
+		#mwband a:hover {
 			color: #d18f77;
 		}
 	
- 	#band ol li {
-		position: relative; top: 140px; left: 50px;
-		text-shadow:0px 0px 4px #282828;
-		/* width: 720px; */
-	} 
+	
 	
 	#band ul li {
 		float: left; box-shadow: 0 0 20px rgba(0,0,0,0.5); line-height: 0;
@@ -116,7 +147,7 @@ section {
 }
 
 	#swim h2 {
-		position: relative; top: 187px; left: 670px;
+		position: relative; top: 187px; left: 680px;
 	}
 	
 	#swim-photo {
@@ -126,12 +157,12 @@ section {
 	}
 	
 	#swim p {
-		position: relative; top: 370px; left: 600px;
-		width: 300px;
+		position: relative; top: 380px; left: 570px;
+		/* width: 300px; */
 	}
 	
 	#swim a {
-		position: relative; top: 370px; left: 300px;
+		position: relative; top: 240px; left: 690px;
 		color: #91d827; text-decoration: none;
 	}
 		#swim a:hover {
@@ -157,12 +188,13 @@ section {
 	}
 
 	#trap p {
-		position: relative; top: 20px; left: 500px;
+		position: relative; top: 0px; left: 400px;
 		width: 500px; height: 161px; 
+		color:black;
 	}
 	
 	#trap a {
-		 top: 130px; left: 230px;
+		top: 130px; left: 210px;
 		color:white;
 		position: relative;
 		text-decoration: none;
@@ -192,7 +224,7 @@ section {
 	
 	#nhs p {
 		color:black;
-		position: absolute; top: 180px; left: 440px;
+		position: absolute; top: 170px; left: 440px;
 		text-shadow:0px 0px 4px white;
 		width: 300px;
 	}
@@ -206,19 +238,19 @@ section {
 	
  	#tri-m h2 {
 		color:black;
-		position: relative; top: 100px; left: 530px;
+		position: relative; top: 150px; left: 530px;
 	}
 	
 	#tri-m-photo img {
 		box-shadow: 0px 0px 30px 5px gray;
-		position: absolute; top: 180px; left: 70px;
+		position: relative; top: 450px; left: 70px;
 	
 	}
 	
 	#tri-m p {
 		color:black;
-		position: relative; top: 145px; left: 530px;
-		width: 300px;
+		position: relative; top: 195px; left: 530px;
+		/* width: 300px; */
 	}
 
 
@@ -235,12 +267,11 @@ section {
 	}
 	
 	#ping-pong p {
-		position: relative; top: 370px; left: 300px;
-		width: 300px;
+		position: relative; top: 240px; left: 120px;
+		/* width: 300px; */
 	}
 	
 	#ping-pong a {
-		position: relative; top: 520px; left: 230px;
 		color: #fdd827; text-decoration: none;
 	}
 		#ping-pong a:hover {
@@ -253,16 +284,16 @@ section {
 }
 
 	#work h2 {
-		position: relative; top: 170px; left: 270px;
+		position: relative; top: 170px; left: 310px;
 	}
 	
 	#work p {
-		position: relative; top: 320px; left: 270px;
-		width: 300px;
+		position: relative; top: 320px; left: -200px;
+		text-align:center;
 	}
 	
 	#work a {
-		position: relative; top: 380px; left: 270px;
+		/* position: relative; top: 380px; left: 270px; */
 		color: #b78152; text-decoration: none;
 	}
 		#work a:hover {
@@ -282,13 +313,13 @@ section {
 
 	#volunteer p {
 		color:black;
-		position: relative; top: 145px; left: 160px;
-		width: 300px;
+		position: relative; top: 190px; left: -332px;
+		text-align:center;
 	}
 	
 	#volunteer a {
 		color: blue; text-decoration: none; /* font-weight: bold; font-size: 26px; */
-		position: relative; top: 200px; left: 160px;
+		position: relative; top: 300px; left: 160px;
 	}
 	
 			#volunteer a:hover {
